@@ -1,0 +1,7 @@
+apiVersion: prometheusrbacproxy.swine.dev/v1beta1
+kind: PrometheusRole
+metadata:
+  name: prometheusrole-sample
+spec:
+  # Add fields here
+  foo: bar

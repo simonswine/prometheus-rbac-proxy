@@ -1,0 +1,7 @@
+version: "2"
+domain: swine.dev
+repo: github.com/simonswine/prometheus-rbac-proxy
+resources:
+- group: prometheusrbacproxy
+  version: v1beta1
+  kind: PrometheusRole
